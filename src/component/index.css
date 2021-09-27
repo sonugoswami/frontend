@@ -1,0 +1,81 @@
+.wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.col-form-label {
+  color: grey;
+  font-size: 12px;
+}
+
+.video-link, .interval-duration {
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid #ced4da;
+}
+
+.video-link:focus, .interval-duration:focus {
+  box-shadow: none;
+  border-color: #ced4da;
+  border-bottom: 2px solid purple;
+}
+
+.segment-settings {
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid #ced4da;
+}
+
+.segment-settings:focus {
+  box-shadow: none;
+  border-color: #ced4da;
+  border-bottom: 2px solid purple;
+}
+
+.btn.btn-primary {
+  color: white;
+  background-color: purple;
+  border-color: purple;
+  cursor: pointer;
+}
+
+.btn.btn-primary.process-video.disabled {
+  background-color: grey;
+  color: white;
+  border-color: grey;
+  cursor: pointer;
+}
+
+.video-segment-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    max-height: 100vh;
+  }
+  .video-segment-box div {
+    margin: 10px;
+    border: 3px solid #000;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+    max-width: 23vw;
+  }
+
+  .video-segment-box {
+        width: 50%;
+    margin: 0 auto;
+    max-height: 200px;
+    overflow: overlay;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+  }
+
+.btn.btn-primary.combine-video.disabled {
+  background-color: grey;
+  color: white;
+  border-color: grey;
+  cursor: pointer;
+}
+
